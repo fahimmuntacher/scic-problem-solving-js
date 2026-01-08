@@ -1,7 +1,7 @@
 function reverseString (value){
     if(typeof value !== "string"){
-        console.log("Please enter a string value");
-        return;
+     
+        return ("Please enter a string value");
     }
     const reverseStringValue = value.split("").reverse().join("");
     return reverseStringValue;
@@ -14,8 +14,8 @@ function vowelCount(value){
     const vowelWord = ["a", "e", "i", "o", "u"];
     let vowel = [];
     if(typeof value !== "string"){
-        console.log("Enter a string value");
-        return;
+      
+        return ("Enter a string value");
     }
     for(let i = 0; i < value.length; i ++){
         if(vowelWord.includes(convert[i])){
